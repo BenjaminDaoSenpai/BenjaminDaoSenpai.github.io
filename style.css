@@ -1,0 +1,43 @@
+@font-face{
+    font-family:DefyGrav;
+    src:url(fonts/DefyGrav.ttf);
+}
+html {
+    background: url("images/snowbg.gif"); 
+     background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+h1{    
+    font-family: "DefyGrav";
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    display: block;
+    color: Blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: #42f44e;
+    color:#f70e67;
+}
+#nav li a:active {
+    background-color:#f70e67;
+    color:black;
+}
+ol{
+    width:80px;
+}
+ul.a{
+    width:200px;
+}
